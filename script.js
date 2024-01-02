@@ -18,7 +18,7 @@ drumsParent.addEventListener("keydown", (e) => {
 });
 
 const createSound = (key) => {
-  let sound = new Audio(`sounds/${key}.mp3`); //dynamically updating the sound
+  let sound = new Audio(`${key}.mp3`); //dynamically updating the sound
   sound.play();
 };
 
